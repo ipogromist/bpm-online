@@ -76,6 +76,11 @@ class KernelBpm
         $this->bootstrapping();
     }
 
+    public static function world()
+    {
+        return "Hello, world!!!";
+    }
+
     /**
      * Auth in Bpm online
      * @return  void
